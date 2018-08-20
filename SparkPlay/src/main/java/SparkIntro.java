@@ -16,7 +16,7 @@ public class SparkIntro {
 		get("/hello/:name", (req, res) ->
 			{
 				return "Hello " + req.params(":name");
-			}
+	g		}
 		);
 
 
